@@ -1,4 +1,4 @@
-import {addToCart,removeFromCart,deleteItem, selectTotalQuantity} from './cartSlice'
+import {addToCart,removeFromCart,deleteItem, selectTotalQuantity} from './cartSlice.js'
 import { useDispatch, useSelector } from 'react-redux'
 import Styles from "./cartcard.module.css"
 function CartCard({item}) {

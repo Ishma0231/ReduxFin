@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
-import { selectTotalPrice } from "../cart/cartSlice";
-import Pagearrows from "../../components/pagearrows/Pagearrows";
+import { selectTotalPrice } from "../cart/cartSlice.js";
+import Pagearrows from "../../components/pagearrows/Pagearrows.jsx";
 
 function Checkout() {
     const totalprice=useSelector(selectTotalPrice)

@@ -1,10 +1,10 @@
 import { useSelector,useDispatch } from 'react-redux'
-import { fetchProducts } from './productSlice1'
+import { fetchProducts } from './productSlice1.js'
 import { useEffect } from 'react'
-import ProductCard from "../../components/productcard/ProductCard"
-import { selectSelectedCategory } from "../category/categorySlice";
-import CategoryList from '../category/CategoryList'
-import Pagearrows from '../../components/pagearrows/Pagearrows'
+import ProductCard from "../../components/productcard/ProductCard.jsx"
+import { selectSelectedCategory } from "../category/categorySlice.js";
+import CategoryList from '../category/CategoryList.jsx'
+import Pagearrows from '../../components/pagearrows/Pagearrows.jsx'
 
 function Products() {
     const {items,error,loading}=useSelector((state)=>state.product)

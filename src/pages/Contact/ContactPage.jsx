@@ -1,5 +1,5 @@
 import styles from "./contact.module.css";
-import Pagearrows from "../../components/pagearrows/Pagearrows";
+import Pagearrows from "../../components/pagearrows/Pagearrows.jsx";
 function Contact() {
   return (
     <div className={`container-fluid m-0 mb-2 p-4 ${styles.box}`}>

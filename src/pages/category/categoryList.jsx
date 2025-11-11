@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {fetchCategories, selectCategories, selectCategory, selectSelectedCategory,} from "./categorySlice";
+import {fetchCategories, selectCategories, selectCategory, selectSelectedCategory,} from "./categorySlice.js";
 
 export default function CategoryList() {
   const dispatch = useDispatch();

@@ -2,7 +2,7 @@ import { useParams,Link } from "react-router-dom"
 import { useEffect,useState } from "react"
 import Styles from "./productdetail.module.css"
 import { useSelector ,useDispatch} from "react-redux";
-import {fetchProductById} from "./productdetailslice"
+import {fetchProductById} from "./productdetailslice.js"
 
 
 function ProductDetails() {

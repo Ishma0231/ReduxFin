@@ -11,7 +11,7 @@ import Navbar from './components/navbar/Navbar.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import Contact from './pages/Contact/ContactPage.jsx'
 import Checkout from './pages/Checkout/CheckoutPage.jsx'
-import ProtectedRoute from './components/protectedroute'
+import ProtectedRoute from './components/protectedroute.jsx'
 import Login from './pages/login/loginPage.jsx'
 
 function App() {

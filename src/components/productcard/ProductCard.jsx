@@ -1,7 +1,7 @@
 import styles from "./productcard.module.css"
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../../pages/cart/cartSlice";
+import { addToCart } from "../../pages/cart/cartSlice.js";
 
 function ProductCard({product}){
   const dispatch=useDispatch();
