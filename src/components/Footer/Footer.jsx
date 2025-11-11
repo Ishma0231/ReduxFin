@@ -1,6 +1,6 @@
 import styles from "./footer.module.css"
 import { Link } from "react-router-dom"
-import Logout from "../logout/logoutbtn.jsx"
+import Logout from "../logout/LogoutButton.jsx"
 function Footer() {
   return (
     <div className="card text-center">

@@ -1,10 +1,10 @@
 import { useSelector } from 'react-redux'
 import EmptyCart from './EmptyPage.jsx'
 import { selectTotalPrice} from './cartSlice.js'
-import CartCard from './Cardcard.jsx'
+import CartCard from './CardCard.jsx'
 import { Link } from 'react-router-dom'
-import ClearCartbtn from '../../components/clearcart/ClearCartBtn.jsx'
-import Pagearrows from '../../components/pagearrows/pagearrowsComponent.jsx'
+import ClearCartbtn from '../../components/clearcart/ClearCartbtn.jsx'
+import Pagearrows from '../../components/pagearrows/Pagearrows.jsx'
 function Cart() {
     const totalPrice=useSelector(selectTotalPrice)
     const cartItems=useSelector((state) => state.cart.cartItems)
