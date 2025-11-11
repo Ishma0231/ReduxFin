@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux'
-import EmptyCart from './emptycart'
+import EmptyCart from './Emptycart'
 import { selectTotalPrice} from './cartSlice'
 import CartCard from './cardcard'
 import { Link } from 'react-router-dom'
