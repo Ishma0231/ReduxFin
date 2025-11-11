@@ -1,8 +1,8 @@
 import { useSelector,useDispatch } from 'react-redux'
 import { fetchProducts } from './productSlice1'
 import { useEffect } from 'react'
-import styles from "./products.module.css"
-import ProductCard from '../../components/productcard/ProductCard'
+
+import ProductCard from '../../components/productcard/productCardComponent'
 import { selectSelectedCategory } from "../category/categorySlice";
 import CategoryList from '../category/categoryList'
 import Pagearrows from '../../components/pagearrows/pagearrowsComponent'
