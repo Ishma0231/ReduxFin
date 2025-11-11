@@ -4,7 +4,7 @@ import { selectTotalPrice} from './cartSlice.js'
 import CartCard from './Cardcard.jsx'
 import { Link } from 'react-router-dom'
 import ClearCartbtn from '../../components/clearcart/ClearCartBtn.jsx'
-import Pagearrows from '../../components/pagearrows/pagearrows.jsx'
+import Pagearrows from '../../components/pagearrows/pagearrowsComponent.jsx'
 function Cart() {
     const totalPrice=useSelector(selectTotalPrice)
     const cartItems=useSelector((state) => state.cart.cartItems)

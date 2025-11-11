@@ -5,7 +5,7 @@ import styles from "./products.module.css"
 import ProductCard from '../../components/productcard/ProductCard'
 import { selectSelectedCategory } from "../category/categorySlice";
 import CategoryList from '../category/categoryList'
-import Pagearrows from '../../components/pagearrows/pagearrows'
+import Pagearrows from '../../components/pagearrows/pagearrowsComponent'
 
 function Products() {
     const {items,error,loading}=useSelector((state)=>state.product)
