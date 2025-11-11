@@ -1,7 +1,7 @@
 import styles from "./navbar.module.css"
 import {Link} from "react-router-dom"
 import { useSelector } from "react-redux";
-import { selectTotalQuantity } from "../../pages/cart/cartSlice";
+import { selectTotalQuantity } from "../../pages/cart/cartSlice.js";
 
 function Navbar() {
     const totalQuantity=useSelector(selectTotalQuantity)
