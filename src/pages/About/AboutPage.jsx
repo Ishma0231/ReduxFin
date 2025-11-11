@@ -1,7 +1,7 @@
 import styles from "./about.module.css";
 import { Link } from "react-router-dom";
 import logo from "../../images/about.jpg";
-import Pagearrows from "../../components/pagearrows/pagearrows";
+
 function About() {
   return (
     <div className={`container mt-4 mb-4 px-1 ${styles.box}`}>

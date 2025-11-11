@@ -1,18 +1,18 @@
 import React from 'react'
 import { Route,Routes } from 'react-router-dom'
-import Home from './pages/home/Home'
-import Products from "./pages/Product/products"
-import ProductDetails from './pages/productdetails/productdetails'
-import Cart from './pages/cart/cart'
-import About from "./pages/About/About"
-import WrongPage from './pages/wrongpage/WrongPage'
-import EmptyCart from './pages/cart/Emptycart.jsx'
+import Home from './pages/home/HomePage.jsx'
+import Products from "./pages/Product/ProductsPage.jsx"
+import ProductDetails from './pages/productdetails/productdetailsPage.jsx'
+import Cart from './pages/cart/CartPage.jsx'
+import About from "./pages/About/AboutPage.jsx"
+import WrongPage from './pages/WrongPg/WrongPage.jsx'
+import EmptyCart from './pages/cart/EmptyPage.jsx'
 import Navbar from './components/navbar/Navbar1'
-import Footer from './components/Footer/Footer.jsx'
-import Contact from './pages/Contact/Contact'
-import Checkout from './pages/checkout/checkout'
+import Footer from './components/Footer/FooterComponent.jsx'
+import Contact from './pages/Contact/ContactPage.jsx'
+import Checkout from './pages/Checkout/CheckoutPage.jsx'
 import ProtectedRoute from './components/protectedroute'
-import Login from './pages/login/login'
+import Login from './pages/login/loginPage.jsx'
 
 function App() {
   return (

@@ -1,9 +1,9 @@
 import { useSelector } from 'react-redux'
-import EmptyCart from './Emptycart.jsx'
+import EmptyCart from './EmptyPage.jsx'
 import { selectTotalPrice} from './cartSlice.js'
 import CartCard from './Cardcard.jsx'
 import { Link } from 'react-router-dom'
-import ClearCartbtn from '../../components/clearcart/ClearCart.jsx'
+import ClearCartbtn from '../../components/clearcart/ClearCartBtn.jsx'
 import Pagearrows from '../../components/pagearrows/pagearrows.jsx'
 function Cart() {
     const totalPrice=useSelector(selectTotalPrice)
