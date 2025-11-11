@@ -12,7 +12,7 @@ import Footer from './components/Footer/Footer.jsx'
 import Contact from './pages/Contact/ContactPage.jsx'
 import Checkout from './pages/Checkout/CheckoutPage.jsx'
 import ProtectedRoute from './components/protectedroute.jsx'
-import Login from './pages/login/loginPage.jsx'
+import Login from './pages/login/LoginPage.jsx'
 
 function App() {
   return (
