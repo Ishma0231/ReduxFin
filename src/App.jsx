@@ -4,7 +4,7 @@ import Home from './pages/home/Home'
 import Products from "./pages/Product/products"
 import ProductDetails from './pages/productdetails/productdetails'
 import Cart from './pages/cart/cart'
-import About from './pages/about/About'
+import About from "./pages/About/About"
 import WrongPage from './pages/wrongpage/WrongPage'
 import EmptyCart from './pages/cart/emptycart'
 import Navbar from './components/navbar/Navbar1'
