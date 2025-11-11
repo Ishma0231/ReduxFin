@@ -3,7 +3,7 @@ import { fetchProducts } from './productSlice1.js'
 import { useEffect } from 'react'
 import ProductCard from "../../components/productcard/ProductCard.jsx"
 import { selectSelectedCategory } from "../category/categorySlice.js";
-import CategoryList from '../category/CategoryList.jsx'
+import CategoryList from '../category/CategoryListPage.jsx'
 import Pagearrows from '../../components/pagearrows/Pagearrows.jsx'
 
 function Products() {
