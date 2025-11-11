@@ -1,0 +1,25 @@
+.box{
+    background-color:#242a37;
+    color:white;
+    font-family: "ChettaVisto",serif;;
+}
+.footHeader{
+    background-color: #93d7d6;
+    color:white;    
+}
+.btnStyle{
+    transition:all 0.3s ease;
+}
+.btnStyle:hover{
+    transform: translateY(-3px) !important;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    
+}
+.Footbottom{
+    background-color:#383d48 ;
+    color:white !important;
+}
+.logof{
+  font-family: "Playwrite Deutschland Schulausgangschrift", cursive;
+ font-weight: 900 !important;
+}

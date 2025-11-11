@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box !important;
+}
+html,body{
+  overflow-x:hidden;
+}
+.cart{
+  color:white;
+}
+a:hover{
+  color:cyan;
+}
+.logof{
+  font-family: "Playwrite Deutschland Schulausgangschrift", cursive;
+ font-weight: 800 !important;
+}
+li a{
+  color:white !important;
+}
+li a:hover {
+  border: 1px solid #d3d3d3;
+  border-radius:4px; 
+  color:#93d7d6 !important; 
+             
+}
+
+.searchInput{
+  background-color: black;
+  color:white !important;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+  border-top-right-radius:0 ;
+  border-bottom-right-radius:0 ;
+  
+}
+.searchInput:focus{
+  background-color: black;
+  box-shadow:none !important;
+}
+.box:hover{
+border:2px solid #93d7d6;
+border-radius:9px;
+}
+.box:focus{
+border:2px solid #93d7d6;
+border-radius:9px !important;
+}
+.searchInput::placeholder{
+ color:white !important; 
+}
+.searchButton{
+  border-color: #93d7d6 !important;
+  color:#93d7d6 !important;
+  background-color: black !important;
+  border-top-left-radius:0;
+  border-bottom-left-radius:0;
+}
+

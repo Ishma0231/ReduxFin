@@ -1,0 +1,14 @@
+body{
+  padding:0;
+  margin :0;
+}
+@font-face {
+    font-family:"ChettaVissto";
+    src: url("../src/fonts/ChettaVissto.ttf") format("truetype");
+    
+}
+@font-face{
+  font-family:"vogue";
+  src:url("../src/fonts/Vogue.ttf")
+}
+

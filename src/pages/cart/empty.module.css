@@ -1,0 +1,19 @@
+.imagecontainer{
+    max-width: 120px !important;
+    height:120px;
+   
+}
+.imagecontainer img{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+    
+}
+h4{
+    color:#fa3b6b;
+}
+.textstyle{
+     font-family: "poppins";
+  font-weight: 400;
+  font-style: normal;
+}
