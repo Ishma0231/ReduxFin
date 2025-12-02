@@ -16,7 +16,7 @@ function Navbar() {
           </button>
           <span className="d-flex">
         <Link className={`px-1 pt-1 pb-0 position-relative ${styles.cart}`} to="/Cart"><i className="fa-solid fa-cart-shopping fs-5"></i>
-         <span className="position-absolute top-2 start-100 translate-middle badge rounded-pill bg-warning" style={{fontSize:"0.7rem"}}>
+         <span className="position-absolute top-2 start-100 translate-middle badge rounded-pill bg-warning"  style="font-size:0.7rem; transform: translate(-60%, -20%)">
           {totalQuantity}
           </span>
         </Link></span>
